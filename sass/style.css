@@ -1,0 +1,314 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 35px;
+}
+
+h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #444;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.food_about, .food_menu, .food_footer {
+  padding: 80px 0;
+}
+
+.mb_auto {
+  margin-bottom: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.brand {
+  font-family: "Merienda";
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-both {
+  margin: 30px 0;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.color-primary {
+  color: #689f38;
+}
+
+.color-secondary {
+  color: #555;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.list-inline {
+  list-style-type: name;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-inline li {
+  margin-right: 20px;
+}
+
+.line-space {
+  line-height: 30px;
+}
+
+.food_header {
+  width: 100%;
+  height: 600px;
+  background-image: url("image/background (3).png");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.valign_wrapper {
+  text-align: center;
+}
+
+.site_heading {
+  font-family: Merienda;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.site_subheading {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+figure .back {
+  top: 40px;
+  left: -40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #689f38;
+  z-index: -1;
+}
+
+.food_footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.food_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #689f38;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.food_icon i {
+  font-size: 40px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+.navbar ul a.active {
+  color: #689f38;
+}
+
+.food_offer {
+  width: 100%;
+  height: 500px;
+  background-image: url(image/cooking.png);
+  color: #fff;
+}
+
+.food_offer_heading {
+  font-weight: 600;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.food_offer_subheading {
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.offer-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #689f38;
+  background-color: #fff;
+  padding: 10px 25px;
+  margin-top: 15px;
+  border-radius: 27px;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.offer-btn:hover {
+  background-color: #689f38;
+  color: #fff;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #707070;
+  line-height: 50px;
+}
+
+.menu_price {
+  color: #689f38;
+}
+
+.food_testimonials {
+  width: 100%;
+  height: 500px;
+  background-image: url(image/testimoniial.png);
+}
+
+.testimonials {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px 30px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials_text {
+  color: #444;
+  line-height: 40px;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-icons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #689f38;
+  margin-right: 20px;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.social-icons li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+/*# sourceMappingURL=style.css.map */
