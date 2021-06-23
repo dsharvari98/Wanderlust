@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: auto;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    ul{
+        list-style-type: none;
+        display: flex;
+        a{
+            display: block;
+            color: #333;
+            padding: 20px;
+            text-decoration: none;
+
+            &.active{
+                color: $primary-color;
+            }
+        }
+    }
+}
