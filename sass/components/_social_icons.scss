@@ -1,0 +1,21 @@
+.social-icons{
+    list-style-type: none;
+    display: flex;
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: $primary-color;
+        margin-right: 20px;
+        transition: 0.4s all;
+
+        &:hover{
+            background-color: #fff;
+            color: $primary-color;
+        }
+    }
+}
+
