@@ -1,2 +1,2 @@
 # Wanderlust
-A food house website using sass framework. 
+A food house website using sass framework
